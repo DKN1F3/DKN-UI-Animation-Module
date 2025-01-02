@@ -417,7 +417,6 @@ local blurObj = Lgt:WaitForChild("Blur")
 
 --<strong>Info:</strong> Literally COLORS the Object. (With LESS control)
 --<strong>Color:</strong> Color3.new(255,255,255)
---<strong>Type:</strong> "Text" or "Container" or "Image" (You have to specify what you want adjusted.)
 	function GUIanim.Color(Object:GuiObject, Time:number, Color:Color3) 
 		
 		local twninfo = TweenInfo.new(Time, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut)
